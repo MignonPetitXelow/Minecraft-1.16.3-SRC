@@ -1,0 +1,17 @@
+***************
+*** 491,497 ****
+                  list = list1;
+              }
+  
+-             return list.toArray(new Biome[list.size()]);
+          }
+      }
+  
+--- 491,497 ----
+                  list = list1;
+              }
+  
++             return (Biome[]) list.toArray(new Biome[list.size()]);
+          }
+      }
+  
